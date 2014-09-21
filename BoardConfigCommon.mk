@@ -37,6 +37,7 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_RECOVERY_INITRC := device/samsung/qcom-common/rootdir/etc/init.recovery.qcom.rc
 
 # Use CM PowerHAL by default
 TARGET_POWERHAL_VARIANT := cm
